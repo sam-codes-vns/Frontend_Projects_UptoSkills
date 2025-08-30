@@ -102,9 +102,8 @@ college-event-management-system/
 └── README.md               # Project documentation
 
 ---
-
+```
 ### **⚙️ Installation & Setup**
-
 Clone the repository:
 
 git clone https://github.com/sam-codes-vns/Frontend_Projects_UptoSkills.git
@@ -126,7 +125,8 @@ Open in browser:
 
 http://localhost:5173
 
-🛠️ Technologies Used
+##🛠️ Technologies Used
+---
 
 Frontend: React + Vite
 
@@ -143,7 +143,6 @@ Animations: Framer Motion
 Charts: Recharts
 
 The College Event Management System makes it simple to:
-
 ---
 
 📌 Organizers → Manage events and attendance
