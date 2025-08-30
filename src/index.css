@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.animate-fade-in {
+  animation: fade-in 0.5s;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #f9fafb;
+}
+body.dark {
+  background: #18181b;
+  color: #e5e7eb;
+}
+
+/* Fix gradient text visibility in dark mode */
+body.dark .bg-clip-text.text-transparent,
+.dark .bg-clip-text.text-transparent {
+  background: none !important;
+  color: #e5e7eb !important;
+}
+
+/* Headings and important text */
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark .font-extrabold,
+body.dark .font-bold {
+  color: #e5e7eb !important;
+}
+
+/* Card backgrounds and borders */
+.dark .card,
+.dark .bg-white,
+.dark .bg-gradient-to-br,
+.dark .bg-gradient-to-r,
+.dark .bg-blue-100,
+.dark .bg-purple-100,
+.dark .bg-pink-100 {
+  background: #23272f !important;
+  color: #e5e7eb !important;
+}
+.dark .border-blue-200 {
+  border-color: #6366f1 !important;
+}
+.dark .shadow-lg {
+  box-shadow: 0 2px 16px #0006 !important;
+}
+
+/* Placeholder color in dark mode */
+body.dark input::placeholder,
+body.dark textarea::placeholder,
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #a1a1aa !important; /* Tailwind zinc-400 */
+}
+body.dark select,
+.dark select,
+body.dark option,
+.dark option {
+  background: #23272f !important;
+  color: #e5e7eb !important;
+}
