@@ -144,52 +144,7 @@ Charts: Recharts
 
 The College Event Management System makes it simple to:
 
-
 ---
-
-
-# College Event Management System
-
-## 1. Login Page
-
-This page allows users to login into the system. Users need to enter their credentials to access their respective dashboards. It includes validation for username and password.
-![Login Page](images/login_screenshot.png)
-
----
-
-## 2. Register Page
-![Register Page](images/register_screenshot.png)
-New users can register here by providing details like Name, Email, Password, and Role (Organizer, Attendant, Volunteer). Proper validation ensures correct data entry.
-
----
-
-## 3. Organizer Dashboard
-![Organizer Dashboard](images/organizer_dashboard.png)
-The dashboard for organizers displays all the events they manage. It shows event statistics, total attendees, and options to add, edit, or delete events. Quick links to attendance tracking are also included.
-
----
-
-## 4. Organizer Profile - Event & Attendance Section
-![Organizer Event Management](images/organizer_event.png)  
-![Attendance Tracking](images/organizer_attendance.png) 
-
-From the organizer profile, you can manage all your events and view attendance for each event. You can mark attendance, export data, or update event details.
-
----
-
-## 5. Attendant Dashboard
-![Attendant Dashboard](images/attendant_dashboard.png)
-Attendants can view upcoming events they are registered for. They can see event details, their participation status, and receive notifications.
-
----
-
-## 6. Volunteer Dashboard
-![Volunteer Dashboard](images/volunteer_dashboard.png)
-
-Volunteers can see the events they are assisting with. They can manage tasks assigned, track their participation, and communicate with organizers.
-
----
-
 
 📌 Organizers → Manage events and attendance
 
